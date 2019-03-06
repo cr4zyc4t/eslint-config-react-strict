@@ -1,0 +1,33 @@
+{
+  "name": "@cr4zyc4t/eslint-config-react-strict",
+  "version": "1.0.0",
+  "description": "Custom eslint config based on eslint-config-react-app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cr4zyc4t/eslint-config-react-strict.git"
+  },
+  "keywords": [
+    "eslint",
+    "react"
+  ],
+  "author": "ToanVQ <hunter9xbn@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cr4zyc4t/eslint-config-react-strict/issues"
+  },
+  "homepage": "https://github.com/cr4zyc4t/eslint-config-react-strict#readme",
+  "dependencies": {
+    "babel-eslint": "9.x",
+    "eslint-config-react-app": "^3.0.7",
+    "eslint": "5.x",
+    "eslint-plugin-flowtype": "2.x",
+    "eslint-plugin-import": "2.x",
+    "eslint-plugin-jsx-a11y": "6.x",
+    "eslint-plugin-react": "7.x"
+  },
+  "devDependencies": {}
+}
