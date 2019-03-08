@@ -1,6 +1,6 @@
 {
   "name": "@cr4zyc4t/eslint-config-react-strict",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Custom eslint config based on eslint-config-react-app",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,7 @@
     "url": "https://github.com/cr4zyc4t/eslint-config-react-strict/issues"
   },
   "homepage": "https://github.com/cr4zyc4t/eslint-config-react-strict#readme",
-  "dependencies": {
+  "peerDependencies": {
     "babel-eslint": "9.x",
     "eslint-config-react-app": "^3.0.7",
     "eslint": "5.x",
@@ -28,6 +28,5 @@
     "eslint-plugin-import": "2.x",
     "eslint-plugin-jsx-a11y": "6.x",
     "eslint-plugin-react": "7.x"
-  },
-  "devDependencies": {}
+  }
 }
